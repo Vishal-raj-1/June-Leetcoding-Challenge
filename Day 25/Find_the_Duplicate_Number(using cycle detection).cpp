@@ -4,7 +4,7 @@ public:
     {
         int slow = nums[0],fast = nums[0],n = nums.size();
 
-        //A point in a cycle
+        //intersection point 
         do
         {
             slow = nums[slow];
