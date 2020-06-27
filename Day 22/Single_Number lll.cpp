@@ -24,7 +24,6 @@ public:
             else
                 ans[1] ^= nums[i];
         }
-
         return ans;
     }
 };

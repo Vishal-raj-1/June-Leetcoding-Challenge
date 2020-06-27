@@ -23,8 +23,7 @@ public:
                     longest = std::move(*it);
                     break;
                 }
-            }
-            
+            } 
             if (found) 
                 beg = len + 1;
             else 
