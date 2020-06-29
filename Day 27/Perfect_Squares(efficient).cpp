@@ -9,6 +9,7 @@ public:
         int Sq = (int)sqrt(n);
         for(int i=2; i<=n; i++)
         {
+            //if it is perfect square
             if(Sq*Sq == n)
             {
                 dp[i] = 1;

@@ -1,6 +1,6 @@
 class Solution
 {
-public:
+public :
     int Sum(TreeNode* root,int currentSum)
     {
         if(!root)
