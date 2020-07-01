@@ -30,6 +30,7 @@ public:
             return true;
 
         char current=b[x][y];
+        //so that it doesnt use more than once
         b[x][y]='#';
         bool found=dfs(x+1,y,d+1) ||
                    dfs(x-1,y,d+1) ||
