@@ -1,2 +1,2 @@
-# Leetcode-Challenge
-Solutions of Leetcode monthly Challenge
+# Leetcode-June-Challenge
+Solutions of Leetcode June monthly Challenge
