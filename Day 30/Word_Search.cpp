@@ -10,6 +10,7 @@ public:
             return false;
 
         char temp = board[i][j];
+        //one char cant be used more than once
         board[i][j] = '#';
 
         bool found = check(board,i+1,j,row,col,index+1,word) || check(board,i,j+1,row,col,index+1,word) ||
