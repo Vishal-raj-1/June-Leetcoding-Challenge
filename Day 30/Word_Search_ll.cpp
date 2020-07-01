@@ -36,13 +36,13 @@ public:
                 {
                     if(board[i][j] == words[k][0] && check(board,i,j,row,col,0,words[k]))
                       {
+                         //insert element if it doesnt exist in set
                           ans.insert(words[k]);
-                     
                       }
                 }
             }
         }
-        
+        //copy the content of set
         vector<string>v(ans.begin(),ans.end());
         
         return v;
